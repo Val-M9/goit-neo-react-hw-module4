@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Toaster } from 'react-hot-toast'
 import {
   Container,
   ImageGallery,
@@ -86,6 +87,7 @@ function App() {
           onClose={handleCloseModal}
         />
       )}
+      <Toaster />
     </>
   )
 }
